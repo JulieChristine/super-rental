@@ -1,5 +1,24 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class= "container" id="same">
+<header>
 
-{{outlet}}
+  {{#link-to 'index'}}<h1><i class="fa fa-home" aria-hidden="true"></i> <i class="fa fa-arrow-right" aria-hidden="true"></i> Super Rentals</h1>{{/link-to}}
+
+  <p>rent a place to stay wherever you go</p>
+</header>
+<ul id="navigation">
+  <li>{{#link-to 'about'}}About{{/link-to}} </li>
+  <li>{{#link-to 'contact'}}Contact{{/link-to}} </li>
+  <li>{{#link-to 'announcement'}}Announcement{{/link-to}}</li>
+</ul>
+</div>
+<br/>
+<br/>
+<br/>
+
+<div class= "container">
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'contact'}}Some questions? We would love to help!{{/link-to}}
+  </footer>
+</div>

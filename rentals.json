@@ -1,0 +1,36 @@
+{"rentals": [{
+  "owner": "Veruca Salt",
+  "city": "San Francisco",
+  "type": "Estate",
+  "bedrooms": 15,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+}, {
+  "owner": "Mike TV",
+  "city": "Seattle",
+  "type": "Condo",
+  "bedrooms": 1,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+}, {
+  "owner": "Violet Beauregarde",
+  "city": "Portland",
+  "type": "Apartment",
+  "bedrooms": 3,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+}],
+"announcements": [{
+  "writter": "Kevin",
+  "title": "music in Hong Kong",
+  "details": "There’s nothing better than ending a long work week with a couple of drinks, laughs and friends. We’re lucky to have plenty of options when it comes to watering holes, but if you’re looking for something a little different, why not check out some of the awesome live music nights in the city? That’s right, you can find live music in Hong Kong almost every night of the week if you try and you won’t regret adding a lively atmosphere, creativity and beats to those post-work drinks.",
+  "date": "2017-02-28"
+  }, {
+  "writter": "Richard",
+  "title": "To Do: Hiking",
+  "details": "The Hong Kong Trail is a 50 kilometre walking route which passes through the five country parks on Hong Kong island. The trail is divided into eight sections which provide a variety of walks of different lengths and character. Rather than try to complete them all at once you may wish to plan a series of leisurely walks to appreciate the scenery along the trail. Please note that there are no camp sites along the trail and you are advised to leave the trail with sufficient time to reach home before nightfall.",
+  "date": "2016-10-26"
+  }, {
+  "writter": "Ian",
+  "title": "Special valentines deal: 20% off your first rental",
+  "details": "Want to spend an unforgetable Valentine day? Make a boooking for February 14th and get 20% off your booking. Come and discover our services!",
+  "date": "2017-02-07"
+  }]
+}

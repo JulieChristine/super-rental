@@ -1,0 +1,77 @@
+* {
+  font-family: 'Bree Serif', serif;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/199884/pexels-photo-199884.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/*h1, h2, h3, h4, p {
+  font-family: 'Bree Serif', serif;
+}*/
+
+h1 {
+  color: rgb(23, 65, 114);
+}
+
+.container {
+  background-color: rgba(250, 250 , 250 , 0.5);
+  padding-bottom: 40px;
+}
+
+.container:p {
+  margin: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 56px;
+
+}
+
+button {
+  background-color: rgb(23, 65, 114);
+  border: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+img {
+  max-height: 300px;
+  width: auto;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(23, 65, 114);
+}
+
+#navigation li {
+    float: left;
+}
+
+#navigation li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li p:hover {
+    background-color: #111;
+}
+
+#same {
+  text-align: center;
+}

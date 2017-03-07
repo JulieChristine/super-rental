@@ -1,0 +1,23 @@
+<h3> Welcome to Super Rentals </h3>
+
+We hope you find exactly what you're looking for in a place to stay.
+
+<h4>Available rentals</h4>
+
+<ul>
+  {{#each model.rentals as |rental|}}
+    {{rental-popularity rental}}{{rental-tile rental=rental}} {{rental-cost rental}}
+  {{/each}}
+</ul>
+
+{{new-rental saveRental2="saveRental3"}}
+
+<!-- <h4>All reviews</h4>
+
+<ul>
+  {{#each model.reviews as |review|}}
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+  {{/each}}
+</ul> -->
+
+<!-- {{new-review saveReview="saveReview"}} -->
