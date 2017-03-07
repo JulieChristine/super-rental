@@ -9,4 +9,9 @@ Located in {{rental.city}}, this {{rental.bedrooms}} bedroom {{rental.type}} is 
   {{/each}}
 </ul>
 
+<div>
+  <h4>Map of {{rental.owner}}'s {{rental.type}}</h4>
+  {{google-map rental=rental}}
+</div>
+
 <button {{action 'delete' rental}}>Delete Rental</button>

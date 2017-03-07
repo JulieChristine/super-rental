@@ -8,6 +8,8 @@ module.exports = function(defaults) {
   });
 
   // Use `app.import` to add additional libraries to the generated
+  app.import('bower_components/moment/moment.js')
+  app.import('vendor/gmaps.js');
   // output files.
   //
   // If you need to use different assets in different
