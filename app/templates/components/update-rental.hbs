@@ -32,6 +32,16 @@
         {{input value=cost id="cost" placeholder=rental.cost}}
       </div>
 
+      <div class="form-group">
+        <label for="latitude">Latitude location</label>
+        {{input value=latitude id="latitude" placeholder=rental.latitude}}
+      </div>
+
+      <div class="form-group">
+        <label for="longitude">Longitude location</label>
+        {{input value=longitude id="longitude" placeholder=rental.longitude}}
+      </div>
+
       <button {{action 'update' rental}}>Save</button>
     </form>
   </div>
